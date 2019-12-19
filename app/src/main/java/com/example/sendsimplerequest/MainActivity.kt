@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         // Instantiate the RequestQueue.
         val queue = Volley.newRequestQueue(this)
-        val url = "http://192.168.1.102:3000/coches"
+        val url = "https://jsonplaceholder.typicode.com/comments"
 
         // Request a string response from the provided URL.
         val stringRequest = StringRequest(
